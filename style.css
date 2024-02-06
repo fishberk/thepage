@@ -1,3 +1,71 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+/* body {
+  background-color: rgb(44, 41, 41);
+  background-image: linear-gradient(
+      158deg,
+      rgba(180, 192, 121, 0),
+      rgba(132, 99, 155, 0.6)
+    ),
+    url(images/Random\ static.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 100vh;
+  margin: 0;
+} */
+
+/* body {
+  background-color: rgb(44, 41, 41);
+  background-image: linear-gradient(
+    158deg,
+    rgba(180, 192, 121, 0),
+    rgba(132, 99, 155, 0.6)
+  );
+
+  height: 100vh;
+  margin: 0;
+} */
+
+body {
+  padding: 0;
+  margin: 0;
+  background-image: url(./images/gradient\ texture.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+}
+
+h1 {
+  display: flex;
+  justify-content: center;
+  padding-top: 50px;
+  color: bisque;
+}
+
+ul {
+  list-style: none;
+  display: flex;
+  align-items: center;
+}
+
+li {
+  color: wheat;
+  margin: 20px;
+  font-size: 25px;
+}
+
+nav {
+  /* background-color: rgba(0, 0, 0, 0.5); */
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
